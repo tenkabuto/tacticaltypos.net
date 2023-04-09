@@ -1,15 +1,43 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Homepage | My notes</title>
-  <link rel="stylesheet" href="/static/styles/main.css">
-</head>
-<body>
-  
-<article>
-  <h1>My notes</h1>
-  <div><p>This is the &quot;home&quot; note for the notebook. Add links here to key notes or make a table of contents.<sup class="footnote-ref" id="fnref-hi"><a href="#fn-hi">1</a></sup> I really hope I can get footnotes to work.</p>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="Homepage | Tactical Typos" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="author" content="Brandon Hall">
+    <meta name="google-site-verification" content="Ds1NlFvZ6fZpOwOyduFSrkOq-xaRmpBm9kVRCMCVpZo" />
+    <link id="faviconLink" rel="shortcut icon" href="images/favicon.ico">
+    <title>Homepage | Tactical Typos</title>
+    <!-- Bootstrap core CSS -->
+<link href="/static/styles/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/static/styles/blog.css" rel="stylesheet">
+  </head>
+  <body>
+<header class="p-3">
+<h3 class="font-italic text-center"><a href="https://tacticaltypos.net" title="Tactical Typos" alt="Homepage" class="p-2 bg-white">Tactical Typos</a></h3>
+<ul class="nav justify-content-between pl-3 pr-3">
+  <li>
+    <a class="tc-tiddlylink tc-tiddlylink-resolves p-2 m-1 bg-white" href="/about">About</a>
+  </li>
+  <li>
+    <a class="tc-tiddlylink tc-tiddlylink-resolves p-2 m-1 bg-white" href="/projects">Projects</a>
+  </li>
+</ul>
+</header>
+
+
+
+<main class="container" role="main">
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <article class="blog-post">
+        <h1 class="blog-post-title">Homepage</h1>
+        <p>This is the &quot;home&quot; note for the notebook. Add links here to key notes or make a table of contents.<sup class="footnote-ref" id="fnref-hi"><a href="#fn-hi">1</a></sup> I really hope I can get footnotes to work.</p>
 <ul>
 <li><a href="https://tacticaltypos.net/example-note/" class="wikilink">Example Note</a></li>
 <li><a href="https://tacticaltypos.net/example-note-2/" class="wikilink">Example Note 2</a></li>
@@ -31,19 +59,13 @@
 )
 </code></pre>
 <p>If I didn't comment this out, the footnote links would link to the first page of the site.</p>
-<h2>Test Filler Text {#hi}</h2>
-<p>I haven’t really looked into Obsidian Publish, but my impression is that it can’t do what you want. It’s definitely it as flexible as Wordpress. You could of course use third-party storefronts for selling things and link to those, etc.</p>
-<p>You might still be able to use Obsidian with something else, but I’d expect it to be more work than Wordpress (I dislike Wordpress and would love to use Obsidian — or at least not Wordpress — but it has a lot of momentum).</p>
-<p>Here’s a bushel of links I recently gathered while researching how I might use Obsidian for my website:</p>
+<h2>Site todos</h2>
 <ul>
-<li><a href="https://www.markbase.xyz/">https://www.markbase.xyz/ 18</a></li>
-<li>
-<a href="https://quartz.jzhao.xyz/notes/obsidian/">Obsidian Vault Integration 7</a><ul>
-<li><a href="https://github.com/jackyzha0/quartz">GitHub - jackyzha0/quartz: 🌱 host your own second brain and digital garden for free 9</a></li>
-<li>Quartz is based on <span class="nolink">Hugo</span>.</li>
-<li>Includes <a href="https://quartz.jzhao.xyz/notes/search#:~:text=undefined/">search</a>: full text search or a fancier version powered by Operand (a 3rd party service; besides any other concerns, the free version only indexes up to 1000 documents which might be too few for me).</li>
-</ul>
-</li>
+<li>[x] Change templates to use prior site's look</li>
+<li>[x] Move CSS files into static and change paths</li>
+<li>[x] Confirm that the base_url works, or figure out what else would work</li>
+<li>[x] Remove dummy nav links</li>
+<li>[x] See if doc.modified works?</li>
 </ul>
 <div class="footnotes">
 <ol>
@@ -51,8 +73,27 @@
 <p>Does this still get setup as a link? <a href="https://tacticaltypos.net/example-note/" class="wikilink">Example Note</a> Yes it does.<a href="#fnref-hi" class="footnote">&#8617;</a></p></li>
 </ol>
 </div>
-</div>
-</article>
 
+      </article>
+    </div>
+    <aside class="col-md-4 blog-sidebar">
+        <div class="mt-3">
+            <form action="https://duckduckgo.com" class="my-2 my-lg-0">
+              <input name="sites" type="hidden" value="tacticaltypos.net">
+              <input aria-label="Search" class="form-control mr-sm-2" name="q" placeholder="Search" type="search">
+              <button class="btn btn-outline-success my-2 my-sm-0 font-weight-bold" type="submit">Search</button>
+            </form>
+        </div>
+    </aside>
+  </div>
+</main>
+
+
+
+<footer class="blog-footer bg-light">
+  <p>
+    <a href="#">Back to top</a>
+  </p>
+</footer>
 </body>
 </html>
