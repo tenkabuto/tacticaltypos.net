@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Homepage | My notes</title>
+  <link rel="stylesheet" href="/static/styles/main.css">
+</head>
+<body>
+  
+<article>
+  <h1>My notes</h1>
+  <div><p>This is the &quot;home&quot; note for the notebook. Add links here to key notes or make a table of contents.<sup class="footnote-ref" id="fnref-hi"><a href="#fn-hi">1</a></sup> I really hope I can get footnotes to work.</p>
+<ul>
+<li><a href="http://localhost:8080/example-note/" class="wikilink">Example Note</a></li>
+<li><a href="http://localhost:8080/example-note-2/" class="wikilink">Example Note 2</a></li>
+</ul>
+<h1>Testing?</h1>
+<p>Woo! <a href="http://localhost:8080/dated/2023-04-08/" class="wikilink">2023-04-08</a></p>
+<p>So we can't do links to specific sections of articles or use footnotes. Which honestly are things I couldn't do with TiddlyWiki, so *shrug*</p>
+<h1>Site generation and serving</h1>
+<p><code>python3 build.py</code> for building public files</p>
+<p><code>http-server</code> for local testing</p>
+<ul>
+<li>[ ] Try to swap commonmark for marko and enable the footnotes and toc plugins</li>
+</ul>
+<p>I was able to do this by swapping out <code>commonmark</code> for <code>marko</code> in the lettersmith_py files <code>setup.py</code> and <code>markdowntools.py</code> , then commenting out the fourth line in my lettersmith project's <code>build.py</code> file:</p>
+<pre><code class="language-php">all_pages = pipe(
+    (*pages, *home),
+    wikidoc.content_markdown(base_url),
+    # absolutize.absolutize(base_url),
+)
+</code></pre>
+<p>If I didn't comment this out, the footnote links would link to the first page of the site.</p>
+<h2>Test Filler Text {#hi}</h2>
+<p>I haven’t really looked into Obsidian Publish, but my impression is that it can’t do what you want. It’s definitely it as flexible as Wordpress. You could of course use third-party storefronts for selling things and link to those, etc.</p>
+<p>You might still be able to use Obsidian with something else, but I’d expect it to be more work than Wordpress (I dislike Wordpress and would love to use Obsidian — or at least not Wordpress — but it has a lot of momentum).</p>
+<p>Here’s a bushel of links I recently gathered while researching how I might use Obsidian for my website:</p>
+<ul>
+<li><a href="https://www.markbase.xyz/">https://www.markbase.xyz/ 18</a></li>
+<li>
+<a href="https://quartz.jzhao.xyz/notes/obsidian/">Obsidian Vault Integration 7</a><ul>
+<li><a href="https://github.com/jackyzha0/quartz">GitHub - jackyzha0/quartz: 🌱 host your own second brain and digital garden for free 9</a></li>
+<li>Quartz is based on <span class="nolink">Hugo</span>.</li>
+<li>Includes <a href="https://quartz.jzhao.xyz/notes/search#:~:text=undefined/">search</a>: full text search or a fancier version powered by Operand (a 3rd party service; besides any other concerns, the free version only indexes up to 1000 documents which might be too few for me).</li>
+</ul>
+</li>
+</ul>
+<div class="footnotes">
+<ol>
+<li id="fn-hi">
+<p>Does this still get setup as a link? <a href="http://localhost:8080/example-note/" class="wikilink">Example Note</a> Yes it does.<a href="#fnref-hi" class="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+</div>
+</article>
+
+</body>
+</html>
