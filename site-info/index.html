@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta property="og:title" content="Example Note | Tactical Typos" />
+    <meta property="og:title" content="Site Info | Tactical Typos" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -11,7 +11,7 @@
     <meta name="author" content="Brandon Hall">
     <meta name="google-site-verification" content="Ds1NlFvZ6fZpOwOyduFSrkOq-xaRmpBm9kVRCMCVpZo" />
     <link id="faviconLink" rel="shortcut icon" href="images/favicon.ico">
-    <title>Example Note | Tactical Typos</title>
+    <title>Site Info | Tactical Typos</title>
     <!-- Bootstrap core CSS -->
 <link href="/static/styles/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -36,19 +36,45 @@
   <div class="row">
     <div class="col-md-8 blog-main">
       <article class="blog-post">
-        <h1 class="blog-post-title">Example Note</h1>
-        <p>Hello world!</p>
+        <h1 class="blog-post-title">Site Info</h1>
+        <h2>Site generation and serving</h2>
+<h3>Local Testing</h3>
+<p><code>python3 build.py</code> for building local files for testing</p>
+<p><code>http-server</code> for testing</p>
+<h3>Pushing to live</h3>
+<p><code>python3 deploy.py</code> for building public files for local testing</p>
+<p>Then copy the contents of the <code>public</code> folder into the <code>tacticaltypos.net</code> folder in my home directory, then in my Git client stage all changes, commit, and push to Github</p>
+<h2>Added footnotes capabilities</h2>
+<p>I was able to do this by swapping out <code>commonmark</code> for <code>marko</code> in the lettersmith_py files <code>setup.py</code> and <code>markdowntools.py</code> , then commenting out the fourth line in my lettersmith project's <code>build.py</code> file:</p>
+<pre><code class="language-php">all_pages = pipe(
+    (*pages, *home),
+    wikidoc.content_markdown(base_url),
+    # absolutize.absolutize(base_url),
+)
+</code></pre>
+<p>If I didn't comment this out, the footnote links would link to the first page of the site.</p>
+<h2>Site todos</h2>
+<ul>
+<li>[x] Change templates to use prior site's look</li>
+<li>[x] Move CSS files into static and change paths</li>
+<li>[x] Confirm that the base_url works, or figure out what else would work</li>
+<li>[x] Remove dummy nav links</li>
+<li>[x] See if doc.modified works?</li>
+<li>
+[ ] Figure out better workflow for updating to Github<ul>
+<li>[ ] Possibly use Github actions to take in changes to source and then automatically run <code>deploy.py</code> script and have Github serve the static files</li>
+</ul>
+</li>
+</ul>
 
       </article>
     </div>
     <aside class="col-md-4 blog-sidebar">
       <div class="p-3 mb-3 bg-white rounded">
-        <p class="text-secondary">Last edited 2020-07-25 08:18:22</p>
+        <p class="text-secondary">Last edited 2023-04-09 17:08:02.407783</p>
         <h4 class="font-italic mt-3">Backlinks</h4>
         <ul class="list-unstyled">
         
-	    	<li><a class="wikilink" href="/example-note-2/">Example Note 2</a><br>Hello Numenera! Link to other notes, Example Note, to create backlinks</p>
-	  	
 	    	<li><a class="wikilink" href="/">Homepage</a><br>See the main pages of this site</p>
 	  	
 	  	</ul>
