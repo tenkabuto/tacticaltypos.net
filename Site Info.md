@@ -28,5 +28,6 @@ If I didn't comment this out, the footnote links would link to the first page of
 - [x] Confirm that the base_url works, or figure out what else would work
 - [x] Remove dummy nav links
 - [x] See if doc.modified works?
-- [ ] Figure out better workflow for updating to Github
-	- [ ] Possibly use Github actions to take in changes to source and then automatically run `deploy.py` script and have Github serve the static files
+- [x] Figure out better workflow for updating to Github
+	- [x] Possibly use Github actions to take in changes to source and then automatically run `deploy.py` script and have Github serve the static files
+- [ ] Clean up documentation of resources that I pulled on to make the GitHub Actions => GitHub Pages thing work. Currently some notes are in [[2023-04-11]]
