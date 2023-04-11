@@ -38,7 +38,7 @@ language-selector==0.1
 launchpadlib==1.10.16
 lazr.restfulclient==0.14.4
 lazr.uri==1.0.6
-lettersmith @ git+https://github.com/tenkabuto/lettersmith_py.git@75ac0039088a196e404d9cce83dadb251376b7b9
+-e git+https://github.com/tenkabuto/lettersmith_py@75ac0039088a196e404d9cce83dadb251376b7b9#egg=lettersmith
 lockfile==0.12.2
 louis==3.20.0
 lxml==4.8.0
