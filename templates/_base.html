@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="{{doc.title}} | {{site.title}}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="author" content="Brandon Hall">
+    <meta name="google-site-verification" content="Ds1NlFvZ6fZpOwOyduFSrkOq-xaRmpBm9kVRCMCVpZo" />
+    <link id="faviconLink" rel="shortcut icon" href="images/favicon.ico">
+    <title>{{doc.title}} | {{site.title}}</title>
+    <!-- Bootstrap core CSS -->
+<link href="/static/styles/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/static/styles/blog.css" rel="stylesheet">
+  </head>
+  <body>
+<header class="p-3">
+<h3 class="font-italic text-center"><a href="{{base_url}}" title="{{site.title}}" alt="Homepage" class="p-2 bg-white">{{site.title}}</a></h3>
+<ul class="nav justify-content-between pl-3 pr-3">
+  <li>
+    <a class="tc-tiddlylink tc-tiddlylink-resolves p-2 m-1 bg-white" href="/about">About</a>
+  </li>
+  <li>
+    <a class="tc-tiddlylink tc-tiddlylink-resolves p-2 m-1 bg-white" href="/projects">Projects</a>
+  </li>
+</ul>
+</header>
+
+
+{% block body %}{% endblock %}
+
+
+<footer class="blog-footer bg-light">
+  <p>
+    <a href="#">Back to top</a>
+  </p>
+</footer>
+</body>
+</html>
+
