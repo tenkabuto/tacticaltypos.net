@@ -1,5 +1,5 @@
 Jinja2==3.1.2
-lettersmith==0.0.1a1
+-e git+https://github.com/tenkabuto/lettersmith_py@75ac0039088a196e404d9cce83dadb251376b7b9#egg=lettersmith
 marko==1.3.0
 MarkupSafe==2.1.2
 python-frontmatter==1.0.0
