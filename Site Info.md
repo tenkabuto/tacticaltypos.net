@@ -31,3 +31,20 @@ If I didn't comment this out, the footnote links would link to the first page of
 - [x] Figure out better workflow for updating to Github
 	- [x] Possibly use Github actions to take in changes to source and then automatically run `deploy.py` script and have Github serve the static files
 - [ ] Clean up documentation of resources that I pulled on to make the GitHub Actions => GitHub Pages thing work. Currently some notes are in [[2023-04-11]]
+
+Additional things I'd possibly want to do:
+- collect pages with YAML tags, make separate tag pages, link to tag archives from tagged page/post
+- have dated pages separate from regular ones
+	- dated pages have a feed
+	- have these linked to in a separate backlinks area, filtered out from links from pages
+
+
+
+## Features I want but don't know if they're possible
+While I was able to install the [marko extension for tables of contents](https://marko-py.readthedocs.io/en/latest/extensions.html), I didn't know enough about how lettersmith is setup to figure out how to embed table of contents into a page template.
+
+It'd also be really cool if someone could figure out how to link to sections of a page while keeping it Obsidian-supported.
+
+## Other related sites
+Cool notes using obsidian and lettersmith: https://ericmjl.github.io/notes/
+- https://ericmjl.github.io/notes/state-of-data-science/
