@@ -38,7 +38,7 @@ One thing to remember when analyzing this data is always that the analyses perta
 		- the dist data would need to be in the same x variable for all instances we'd want to break into separate dists; we just keep track of which one it is via another variable, like Political Party
 
 # Metadata
-[[SkateAnalytics]]: trick modifiers like Fakie, Switch, and 360. Fakie and Switch are mutually exclusive, but Fakie and 360 are not. At the basic level, adding these modifiers can be like assigning qualities to a beer in Untappd.
+[[Skateboarding Analytics]]: trick modifiers like Fakie, Switch, and 360. Fakie and Switch are mutually exclusive, but Fakie and 360 are not. At the basic level, adding these modifiers can be like assigning qualities to a beer in Untappd.
 - People that are interested in what is essential to do this and to do it themselves.
 - Runs are a string of tricks. FS 5050, FS 180 out = FS 5050 followed by a FS 180 off of a grind object (ledge, rail, bench - categories of things that have a weight-bearing platform (bench or ledge) or do not have them (rail, chain)).
 	- Sessions are a set of tricks (and runs, which are themselves sets of tricks) that are usually restricted to a certain time frame, location, and obstacle or set of obstacles.
