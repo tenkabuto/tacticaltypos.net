@@ -4,6 +4,8 @@ Difficulty with pinning down any specific topic I'd like to study; I feel like I
 
 What's important to research? (Field-wide/everyone) What's important *to me* to research?
 
+I'd likely benefit a lot from learning more statistics, especially through a book like [Jaynes' *Probability Theory*](https://www.abebooks.com/servlet/SearchResults?bi=h&kn=jaynes+probability+theory&sortby=17&cm_sp=pan-_-srp-_-hc).
+
 ### Econ theory
 How does model building relate to theory? Is economic theorizing just building models? What else is there?
 * DANIEL B. KLEIN AND PEDRO P. ROMERO*ε 2007 implies that there is a difference.
