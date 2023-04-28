@@ -2,11 +2,9 @@
 summary: "Call for Abstracts for submissions to a book about Skateboarding and Philosophy. Abstracts are due by August 7, 2023."
 ---
 
-Below is a Call for Abstracts that was recently emailed to me.[^seent] Please review it and consider submitting an abstract for it.
+Below is a Call for Abstracts that was recently emailed to me. Please review it and consider submitting an abstract for it.
 
 I don't know yet whether I'll contribute to this, but the request seems to have given me some permission to think more about these topics than I'd apparently been allowing myself to do, despite evidently wanting to. 😁 I might end up writing my own things in response to some of these prompts and put them on this site or in an ebook of my own.
-
-[^seent]: Apparently I've sufficiently established myself online at the cross-roads of both interests, skateboarding and philosophy!
 
 ---
 
