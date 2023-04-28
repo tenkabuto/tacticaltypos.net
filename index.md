@@ -24,7 +24,7 @@ It's a lecture by Leo Buscaglia that delves into the nature of being human, all 
 <iframe src="https://archive.org/embed/LeoBuscagliaTheArtOfBeingFullyHuman" width="100%" height="400px" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
 ## Current Events
-- See [[CFA Skateboarding and Philosophy|this Call for Abstracts for submissions to a book about Skateboarding and Philosophy]]. Abstracts are due by August 7, 2023.
+- See [[Call for Abstracts - Skateboarding and Philosophy book|this Call for Abstracts for submissions to a book about Skateboarding and Philosophy]]. Abstracts are due by August 7, 2023.
 
 ---
 
