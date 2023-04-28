@@ -9,3 +9,6 @@ PeerJoy
 Juices There
 
 Page about independent research: [[Independent Scholarship]]
+
+# Maybe
+[[CFA Skateboarding and Philosophy]]
