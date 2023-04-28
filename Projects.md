@@ -11,4 +11,4 @@ Juices There
 Page about independent research: [[Independent Scholarship]]
 
 # Maybe
-[[CFA Skateboarding and Philosophy]]
+[[Call for Abstracts - Skateboarding and Philosophy book]]
