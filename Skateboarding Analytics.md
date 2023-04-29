@@ -1,12 +1,11 @@
 ---
-title: Skate Analytics
 summary: Towards a way of recording, analyzing, and visualizing data about skateboarding trick attempts and a skateboarder's likelihood of landing a trick. Progression (or regression), visualized!
 ---
 
 Towards a way of recording, analyzing, and visualizing data about skateboarding trick attempts and a skateboarder's likelihood of landing a trick. Progression (or regression), visualized!
 
 # Current Status
-Disorganized: Lots of disparate notes that need to compiled and ironed out, some code and visuals
+Disorganized: Lots of disparate notes that need to be compiled and ironed out, some code and visuals
 
 Could likely benefit from compiling everything in one place and being more structured in how it's presented or different concerns are sufficiently separated out
 

@@ -1,14 +1,16 @@
-This site, for one!
+---
+summary: See the projects that I have going on, have done, or are considering
+---
 
-[[Skateboarding Analytics]]
+## Ongoing
+- This website, for one
+- [[Skateboarding Analytics]]: Towards a way of recording, analyzing, and visualizing data about skateboarding trick attempts and a skateboarder's likelihood of landing a trick. Progression (or regression), visualized!
+- Page about independent research: [[Independent Scholarship]]
+- [[Juices There]] (book): A wildly inefficient but nonetheless fun and sometimes funny way to practice Spanish.
 
-Mind Set
+### On Hold
+- Mind Set (book? webpage?)
+- PeerJoy (website/social networking service)
 
-PeerJoy
-
-Juices There
-
-Page about independent research: [[Independent Scholarship]]
-
-# Maybe
-[[Call for Abstracts - Skateboarding and Philosophy book]]
+## Considering
+- Writing essays for this [[Call for Abstracts - Skateboarding and Philosophy book]], or writing ones inspired by it under the header of Think Skate, which I might turn into [an ebook](https://leanpub.com/thinkskate)
