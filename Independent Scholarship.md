@@ -1,4 +1,4 @@
-Drilling into what it means to be a scholar, irrespective of whether you're affiliated with an academic institution or not. (Scholars )
+Drilling into what it means to be a scholar, irrespective of whether you're affiliated with an academic institution or not.
 
 See the page [[My Independent Scholarship]] for information about my attempts to be/become a scholar.
 
