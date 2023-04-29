@@ -1,4 +1,4 @@
-A wildly inefficient but nonetheless fun and sometimes funny way to practice Spanish and English.
+A wildly inefficient but nonetheless fun and sometimes funny way to learn and practice Spanish.
 
 Use phonetics, rhyming, vocabulary, and creativity to play with the languages of English and Spanish.
 
