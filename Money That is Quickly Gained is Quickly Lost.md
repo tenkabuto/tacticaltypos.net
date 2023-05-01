@@ -6,7 +6,7 @@ summary: "... Payroll Psychology, and Consumerism"
 
 *This is an archived version of a blog post that I originally published on June 16, 2016.*
 
-> **Summary:** In this post, I present a hypothetical error that humans may make when they receive their monthly or bi-weekly paychecks and explore how the error might help the economy and cause workers to suffer.
+> **Summary:** In this post, I present a hypothetical error that humans may make when they receive their monthly or bi-weekly paychecks and explore how the error might help the economy but cause workers to suffer.
 
 I recently came up with the quoted aphorism that is in the title, and while I quickly realized that it isn't necessarily true[^1], I was interested in the possibility that we (humans) might be psychologically inclined[^2] towards spending/using/losing money at a faster rate than we would usually spend it, following our receiving of money at a faster rate ("fund gain rate") than usual.
 
