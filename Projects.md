@@ -2,6 +2,9 @@
 summary: See the projects that I have going on, have done, or are considering
 ---
 
+## Done
+- Blog post, [[Money That is Quickly Gained is Quickly Lost]]
+
 ## Ongoing
 - This website, for one
 - [[Skateboarding Analytics]]: Towards a way of recording, analyzing, and visualizing data about skateboarding trick attempts and a skateboarder's likelihood of landing a trick. Progression (or regression), visualized!
